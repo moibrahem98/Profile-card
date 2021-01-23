@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+}
+.card__body {
+  background-image: url(../images/bg-pattern-top.svg),url(../images/bg-pattern-bottom.svg);
+  background-position: top, bottom;
+  height: 700px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  width: 350px;
+  height: 380px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card .pattern {
+  border-radius: 10px 10px 0 0;
+}
+.card .person {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: -50px
+}
+h3 , p {
+  margin: 0;
+  padding: 0;
+}
+.card__info__parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+hr {
+  opacity: .5;
+}
+.card__info__parent .card__info {
+  margin-top: 15px;
+}
